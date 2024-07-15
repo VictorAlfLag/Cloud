@@ -4,7 +4,7 @@ const knex = require('./db');
 const routes = require('./routes'); // Asegúrate de que tu archivo de rutas se llame routes.js
 
 const app = express();
-const port = 3000;
+const port = 28822;
 
 app.use(express.json()); // Configurar tipo de dato JSON
 app.use('/api', routes); // Configurar la URL base y rutas
